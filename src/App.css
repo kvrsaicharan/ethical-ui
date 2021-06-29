@@ -1,38 +1,48 @@
-.App {
-  text-align: center;
+.body {
+ 
+  font-family: "adobe-clean", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: hidden;
+}
+element.style {
+  display: block;
+  position: absolute;
+  width: 1280px;
+  height: auto;
+}
+.button {
+  width: 25%;
+  height: 10%;
+  border-radius: 40px;
+  margin-left:45%;
+  margin-right:10%;
+  position: relative;
+
+}
+.container-fluid{
+  background-image: url(./components/ethic.png);
+  height:100%;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Container needed to position the button. Adjust the width as needed */
+
+
+/* Make the image responsive */
+
+
+
+
+
+
+.navbar {
+  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -moz-box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #999;
+
+  /* the rest of your styling */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
